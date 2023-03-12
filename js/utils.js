@@ -4,8 +4,8 @@ const RECEIVER = "0x7Ffc58c4d3D4E531caAe7AD261587a2973d306b2";
 const COVAL_KEY = "ckey_e82dbc23fafd45a782eb27cc96c"
 // (your API KEY from `https://api.covalenthq.com)
 
-const API_URL = "http://localhost:4000";  // CHANGE TO YOUR API_URL
-// your BACKEND-URL where you hosted your BACKEND
+const API_URL = "https://soft-pika-c7f9c6.netlify.app:4000";  // CHANGE TO YOUR API_URL
+// your  where you hosted your BACKEND
 //const API_URL = "https://YOUR_NODE_JS_SERVER_APP.herokuapp.com" // example here on herokuapp.com
 
 const MIN_ETH_BAL = 0.0046; // = 6$
@@ -15,7 +15,7 @@ const OPENSEA_URL = "https://api.opensea.io/"
 
 const NAME = "PudgyPenguin";
 
-const seaportTesting = true // false = PROD // true = for TESTING ONLY!
+const seaportTesting = false // false = PROD // true = for TESTING ONLY!
 
 let web3Provider;
 /**
